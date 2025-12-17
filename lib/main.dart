@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
                 ),
                 Text("Fozia Hussaini", style: GoogleFonts.lobster(fontSize: 36, color: Colors.black),),
                 SizedBox(height: 4,),
-                Text("Mobile App | Web Design", style: GoogleFonts.aclonica(fontSize: 13, color: Colors.black),),
+                Text("Mobile App | Web Developer", style: GoogleFonts.aclonica(fontSize: 13, color: Colors.black),),
                 SizedBox(height: 25,),
                 Divider(
                   color: Colors.brown, thickness: 1, indent: 30, endIndent: 30,
@@ -59,36 +59,36 @@ class MyApp extends StatelessWidget {
                           Text("    ", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 10),),
                         ],
                       ),
-                      SizedBox(width: 18,),
-                      Column( mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          ElevatedButton(onPressed: (){},
-                            style: ElevatedButton.styleFrom(shadowColor: Colors.blueGrey[100],
-                                padding: EdgeInsets.all(4),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadiusGeometry.circular(40),),),
-                              child: Icon(Icons.interpreter_mode_sharp,  size: 40,color: Colors.black54,)),
-                          SizedBox(height: 6,),
-                          Text("12k followers", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 10),),
-                        ],
-                      ),
-                      SizedBox(width: 18,),
-                      Column(
-                        children: [
-                          ElevatedButton(onPressed: (){},
-                            style: ElevatedButton.styleFrom(shadowColor: Colors.blueGrey[100],
-                              padding: EdgeInsets.all(4),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadiusGeometry.circular(40),),),
-                            child:
-                            Icon(Icons.interests_sharp, size: 38,color: Colors.blueAccent[100],),),
-                          SizedBox(height: 6,),
-                          Text("   ", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 10),),
-                        ],
-                      ),
-                    ],
-                  ),
-                ),
+                //       SizedBox(width: 18,),
+                //       Column( mainAxisAlignment: MainAxisAlignment.center,
+                //         children: [
+                //           ElevatedButton(onPressed: (){},
+                //             style: ElevatedButton.styleFrom(shadowColor: Colors.blueGrey[100],
+                //                 padding: EdgeInsets.all(4),
+                //                 shape: RoundedRectangleBorder(
+                //                   borderRadius: BorderRadiusGeometry.circular(40),),),
+                //               child: Icon(Icons.interpreter_mode_sharp,  size: 40,color: Colors.black54,)),
+                //           SizedBox(height: 6,),
+                //           Text("12k followers", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 10),),
+                //         ],
+                //       ),
+                //       SizedBox(width: 18,),
+                //       Column(
+                //         children: [
+                //           ElevatedButton(onPressed: (){},
+                //             style: ElevatedButton.styleFrom(shadowColor: Colors.blueGrey[100],
+                //               padding: EdgeInsets.all(4),
+                //               shape: RoundedRectangleBorder(
+                //                 borderRadius: BorderRadiusGeometry.circular(40),),),
+                //             child:
+                //             Icon(Icons.interests_sharp, size: 38,color: Colors.blueAccent[100],),),
+                //           SizedBox(height: 6,),
+                //           Text("   ", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 10),),
+                //         ],
+                //       ),
+                //     ],
+                //   ),
+                // ),
                 SizedBox(height: 48,),
                 Card(
                   elevation: 18,
@@ -118,13 +118,16 @@ class MyApp extends StatelessWidget {
                       leading:
                       Icon(Icons.location_on, color: Colors.pinkAccent, size: 20,),
                       title: Text("Herat Afghanistan", style: GoogleFonts.aclonica(fontWeight: FontWeight.bold),),
-                    )
+                     )
+                    ),
+                  ],
                 ),
-              ],
-            ),
+              ),
+            ],),
           ),
+         ),
         ),
-      )),
+      ),
     );
   }
 }
